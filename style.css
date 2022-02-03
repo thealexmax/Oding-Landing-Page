@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-blue {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 90px;
+}
+
+.links ul {
+    display: flex;
+    gap: 30px;
+}
+
+.link a {
+    color: #E5E7EB;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 420px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    width: 100px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.info-container h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-item-container {
+    display: flex;
+    gap: 50px;
+}
+
+.info-item {
+    max-width: 210px;
+    text-align: center;
+}
+
+.info-item p {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info-item img {
+    border-radius: 20px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    background-color: #E5E7EB;
+}
+
+.quote-container h1 {
+    text-align: left;
+    max-width: 900px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-container h1 p {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.action-container {
+    display: flex;
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 200px 30px 200px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.prompt h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.prompt p {
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.prompt button {
+    background-color: #3882F6;
+    width: 100px;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
